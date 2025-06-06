@@ -1,0 +1,13 @@
+{
+  "name": "conference",
+  "version": "1.0.0",
+  "description": "![Design preview for the Conference ticket generator coding challenge](./preview.jpg)",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": []
+}
