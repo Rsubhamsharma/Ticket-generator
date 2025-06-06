@@ -37,7 +37,9 @@ btn.addEventListener("click",function(e){
         namevalue = fname.value;
         mailvalue = email.value;
        
-           console.log("redirecting to",window.location.href = `ticket.html?name=${encodeURIComponent(namevalue)}&email=${encodeURIComponent(mailvalue)}`); 
+           // Use a relative path and ensure the filename matches exactly (case-sensitive for GitHub Pages)
+           window.location.href = "./ticket.html?name=" + encodeURIComponent(namevalue) + "&email=" + encodeURIComponent(mailvalue);
+           console.log("redirecting to", window.location.href); 
         } 
         
     if(name=="" ||mail==""){

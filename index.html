@@ -12,7 +12,7 @@
 </head>
 <body>
   <div class="heading">
-    <img src="./assets/images/logo-mark.svg" alt="logo" />
+    <img src="assets/images/logo-mark.svg" alt="logo" />
     <h2>Your Journey To The Coding Conf <br>Starts Here!</h2>
     <p>Secure your spot for the biggest coding confrence</p>
   </div>
@@ -23,8 +23,8 @@
     
      <label class="upload-box" >
       <span class="upload">Drag and drop or click to upload </span>
-      <br><span class="upload"><img src="./assets/images/icon-upload.svg" alt="upload icon" /></span>
-      <input type="file" id="img" accept="/image/png, /image/jpeg, /image/jpg" class="file-upload" />
+      <br><span class="upload"><img src="assets/images/icon-upload.svg" alt="upload icon" /></span>
+      <input type="file" id="img" accept="image/png, image/jpeg, image/jpg" class="file-upload" />
       <img id="preview" style="display:none; max-width:100px;">
 
     </label></div>
@@ -39,10 +39,12 @@
       <div class="form-group">
         <label class="two">Email</label>
       <br><input type="email"  class="input-field" />
-      <span class="error-message"></span></form>
-      <br><button id="btn">Generate ticket</button>
+      <span class="error-message"></span>
       </div>
-      <script src="conf.js"></script>
+      <br><button id="btn">Generate ticket</button>
+    </div>
+  </form>
+  <script src="conf.js"></script>
   
 
 </body>
