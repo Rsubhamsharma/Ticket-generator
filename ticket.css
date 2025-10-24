@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 body{position: relative;
     font-family: "Segoe UI Emoji", sans-serif;
@@ -13,6 +14,12 @@ body{position: relative;
     color: white;
     min-height: 100vh;
    
+}
+.logoimg{
+    margin-top: 2%;
+
+  margin-left: 50%;
+  margin-right: 50%;
 }
 .message{
         display:block;
